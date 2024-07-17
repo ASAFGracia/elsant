@@ -4,7 +4,8 @@ const { createRoot } = ReactDOM;
 // Создаем элемент input с placeholder и обработчиком события onClick
 const inputElement = createElement('input', {
   placeholder: "Help text",
-  onClick: () => console.log("Clicked")
+  onClick: () => console.log("Clicked"),
+  onMouseOver: () => console.log("OVER")
 });
 
 // Получаем элемент контейнера в DOM
