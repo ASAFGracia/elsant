@@ -7,7 +7,7 @@
 {% block content %}
     <div class="features">
         <h1>Форма по добавлению товаров</h1>
-        <form method="post" enctype="multipart/form-data">
+        <form class="form-add" method="post" enctype="multipart/form-data">
             {% csrf_token %}
             {{ form.title }}<br>
             {{ form.anons }}<br>
