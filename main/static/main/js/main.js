@@ -1,13 +1,13 @@
-// const { createElement } = React;
-// const { createRoot } = ReactDOM;
-//
-// const inputElement = createElement('input', {
-//   placeholder: "Help text",
-//   onClick: () => console.log("Clicked"),
-//   onMouseOver: () => console.log("OVER")
-// });
-//
-// const container = document.getElementById("app");
-//
-// const root = createRoot(container);
-// root.render(inputElement);
+function openMenu() {
+    const sidebar = document.getElementById("sidebar");
+    const toggleBtnIcon = sidebar.querySelector(".toggle-btn i");
+    sidebar.classList.toggle("active");
+
+    if (sidebar.classList.contains("active")) {
+        toggleBtnIcon.classList.remove("bi-arrow-bar-right");
+        toggleBtnIcon.classList.add("bi-arrow-bar-left");
+    } else {
+        toggleBtnIcon.classList.remove("bi-arrow-bar-left");
+        toggleBtnIcon.classList.add("bi-arrow-bar-right");
+    }
+}

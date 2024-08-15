@@ -10,12 +10,26 @@
   font-style: normal;
 }
 
+body {
+	height: 100vh;
+	display: flex;
+    flex-direction: column;
+}
+
 aside {
-    transition: left;
+	-moz-transition: all 600ms;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+	left: -396px;
     width: 400px;
     background-color: #0C0E10;
-    position: relative;
-    height: 100vh;
+	top: 0;
+    position: fixed;
+	z-index: 1000;
+    height: 65vh;
+	border-right: 4px solid silver;
+	border-bottom: 4px solid silver;
+	border-radius: 0px 0px 10px 0px;
 }
 
 body {
@@ -107,20 +121,67 @@ aside ul a:hover {
 }
 
 footer {
-	background-color: #100208;
-    height: 150px;
+	background-color: #180C15;
+    height: 250px;
     position: relative;
-    bottom: 0;
     left: 0;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    /*align-items: left;*/
 	margin-top: 50px;
 	border-radius: 10px 10px 0px 0px;
+}
+
+#app {
+	margin-left: 50px;
+}
+
+.numbers-header {
+	color: #fff;
+}
+
+.numbers-header:hover {
+	color: #9C4E73;
+	cursor: pointer;
+	text-decoration: Highlight;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: fixed;
+	z-index: 100;
+	padding: 10px 20px;
+	top: 0;
+	left: 0;
+	background-color: #180C15;
+	height: 70px;
+	width: 100%;
+}
+
+header:hover {
+	background-color: #391325;
+}
+
+footer:hover {
+	background-color: #391325;
+}
+
+.logo-img-head {
+	height: 50px;
+	filter: brightness(0) invert(1);
+}
+
+#logo-text {
+	font-family: "Josefin Sans";
+	font-size: 20px;
+    position: relative;
+    color: white;
 }
 
 .elsfr {
@@ -128,4 +189,86 @@ footer {
     font-size: 50px;
     position: relative;
     color: white;
+	padding-top: 20px;
+}
+
+#sidebar .toggle-btn {
+    position: absolute;
+    left: 405px;
+    top: 17px;
+    background: #8C567D;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#sidebar .toggle-btn:hover {background: #556270}
+
+#sidebar .toggle-btn:hover span {background: #fafafa}
+
+#sidebar.active {
+    left: 0;
+}
+
+#bi-search{
+	margin-right: 10px;
+	padding-bottom: 20px;
+	filter: brightness(0) invert(1);
+}
+
+.gen-search {
+	position: relative;
+}
+
+#search-form {
+	border-radius: 20px;
+	background-color: #130008;
+	border: white solid 1px;
+	color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	text-align: left;
+}
+
+.head-div {
+	margin-left: 50px;
+}
+
+.form-add {
+	width: 300px;
+}
+
+.features {
+	margin-left: 50px;
+	margin-top: 100px;
+}
+
+#o-nas-k {
+	font-size: 40px;
+	position: relative;
+	color: #fff;
+}
+
+#o-nas {
+	display: flex;
+	font-size: 20px;
+	color: #fff;
+	filter: brightness(0.5);
+	flex-direction: column;
+	flex: 200px;
+}
+
+.text-div1, .img-div1 {
+	flex: 1;
+	padding: 20px;
+}
+
+#app {
+	display: flex;
+}
+
+.img-div1 img {
+	display: block;
+	width: 70vh;
 }
