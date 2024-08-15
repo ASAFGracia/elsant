@@ -9,7 +9,7 @@
     <h1>{{ title }}</h1>
     {% if news %}
     {% for el in news %}
-        <div class="alert alert-warning">
+        <div id="tovari" class="alert alert-warning">
             <h3>{{ el.title }}</h3>
             <p>{{ el.anons }}</p>
             <img id='photo' src="./images/{{ el.image }}" alt="photo"><br><br>
