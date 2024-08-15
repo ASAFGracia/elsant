@@ -5,24 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e74ea3c0-ac5b-46d3-8227-9f8982021e6d" name="Changes" comment="css 1.0">
-      <change afterPath="$PROJECT_DIR$/main/static/main/img/gen-teppol.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/anime-mirai-nikki-yuno-gasai-wallpaper-preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fd08d2672152ba5316b656c3eb917d0d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fd08d2672152ba5316b656c3eb917d0d_Jcx6xar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fd08d2672152ba5316b656c3eb917d0d_okjra8i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/images/3F3F3F3F3F3F.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/images/3F3F3F3F3F3F_D5IsFEM.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/images/3F3F3F3F3F3F_FGqCuj0.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/images/3F3F3F3F3F3F_mUfTB23.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/images/anime-mirai-nikki-yuno-gasai-wallpaper-preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/images/anime-mirai-nikki-yuno-gasai-wallpaper-preview_BcMgj9g.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/images/anime-mirai-nikki-yuno-gasai-wallpaper-preview_O9IaIlC.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/images/anime-mirai-nikki-yuno-gasai-wallpaper-preview_Rlm4Oxz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elsant/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/elsant/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elsant/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/elsant/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/static/main/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +43,9 @@
     &quot;accountId&quot;: &quot;db799e65-2bd3-4a8b-9d97-15cb3004df6d&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -72,7 +69,7 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "npm.npm start.executor": "Run",
-    "settings.editor.selected.configurable": "reference.idesettings.emmet.css",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -81,6 +78,23 @@
     ]
   }
 }]]></component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\ilyin\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
+        <option name="reportGuid" value="f042803e-5dff-40f7-bfc1-df3631b70d4b" />
+        <option name="reportName" value="projects/qodana/2024-08-15" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\ilyin\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="f042803e-5dff-40f7-bfc1-df3631b70d4b" reportId="projects/qodana/2024-08-15" />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\projects\main\static\main\img" />
@@ -126,7 +140,8 @@
       <workItem from="1723702744163" duration="1668000" />
       <workItem from="1723704493617" duration="1021000" />
       <workItem from="1723705547569" duration="3272000" />
-      <workItem from="1723708878411" duration="9323000" />
+      <workItem from="1723708878411" duration="9432000" />
+      <workItem from="1723718427915" duration="4196000" />
     </task>
     <task id="LOCAL-00001" summary="css 1.0">
       <option name="closed" value="true" />
@@ -136,7 +151,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723705302842</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="css 1.0">
+      <option name="closed" value="true" />
+      <created>1723718292811</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723718292811</updated>
+    </task>
+    <task id="LOCAL-00003" summary="css 1.0">
+      <option name="closed" value="true" />
+      <created>1723718327365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723718327365</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -120,7 +120,22 @@ aside ul a:hover {
     }
 }
 
+header {
+	transition: background-color 1s ease;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	position: fixed;
+	z-index: 100;
+	padding: 10px;
+	background-color: #180C15;
+	height: 70px;
+	width: 100%;
+}
+
 footer {
+	transition: background-color 1s ease;
 	background-color: #180C15;
     height: 250px;
     position: relative;
@@ -131,45 +146,55 @@ footer {
     display: block;
     flex-direction: column;
     justify-content: center;
-    /*align-items: left;*/
 	margin-top: 50px;
 	border-radius: 10px 10px 0px 0px;
 }
 
 #app {
+	display: flex;
 	margin-left: 50px;
 }
 
-.numbers-header {
+.numbers-header p{
+	transition: color ease 0.5s;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	color: #fff;
+	padding: 0;
+	margin: 0 0 0 200px;
 }
 
-.numbers-header:hover {
+.numbers-header p:hover {
 	color: #9C4E73;
 	cursor: pointer;
-	text-decoration: Highlight;
 }
 
-header {
+.numbers-header1 p{
+	transition: color ease 0.5s;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
-	position: fixed;
-	z-index: 100;
-	padding: 10px 20px;
-	top: 0;
-	left: 0;
-	background-color: #180C15;
-	height: 70px;
-	width: 100%;
+	color: #fff;
+	padding: 0;
+	margin: 0 0 0 50px;
+}
+
+.numbers-header1 p:hover {
+	color: #9C4E73;
+	cursor: pointer;
+}
+
+header div:not(:first-child){
+	margin-right: 10px;
 }
 
 header:hover {
-	background-color: #391325;
+	background-color: #3D0C22;
 }
 
 footer:hover {
-	background-color: #391325;
+	background-color: #3D0C22;
 }
 
 .logo-img-head {
@@ -182,6 +207,7 @@ footer:hover {
 	font-size: 20px;
     position: relative;
     color: white;
+	margin: 0;
 }
 
 .elsfr {
@@ -212,6 +238,7 @@ footer:hover {
 
 #bi-search{
 	margin-right: 10px;
+	margin-left: 100px;
 	padding-bottom: 20px;
 	filter: brightness(0) invert(1);
 }
@@ -221,6 +248,8 @@ footer:hover {
 }
 
 #search-form {
+	transition: all ease 0.5s;
+	width: 300px;
 	border-radius: 20px;
 	background-color: #130008;
 	border: white solid 1px;
@@ -229,6 +258,11 @@ footer:hover {
 	padding-right: 5px;
 	padding-bottom: 2px;
 	text-align: left;
+}
+
+#search-form:focus {
+	background-color: #fff;
+	color: #000;
 }
 
 .head-div {
@@ -264,11 +298,32 @@ footer:hover {
 	padding: 20px;
 }
 
-#app {
-	display: flex;
-}
-
 .img-div1 img {
 	display: block;
 	width: 70vh;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+	justify-self: center;
+    align-items: center;
+    margin-left: 290px;
+}
+
+.icon-button i {
+    font-size: 24px;
+    color: #A76C8C;
+    transition: color 0.3s ease;
+}
+
+.icon-button:hover i {
+    color: #e0e0e0;
+}
+
+.icon-button:active i {
+    color: #000;
 }

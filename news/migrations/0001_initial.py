@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
                 ('content', models.TextField(verbose_name='Текст')),
                 ('date', models.DateTimeField(verbose_name='Дата публикации')),
                 ('image', models.ImageField(height_field='image_height', upload_to='images/', width_field='image_width')),
-                ('image_height', models.PositiveIntegerField(blank=True, editable=False, null=True)),
+                ['image_height', models.PositiveIntegerField(blank=True, editable=False, null=True)],
                 ('image_width', models.PositiveIntegerField(blank=True, editable=False, null=True)),
             ],
             options={
