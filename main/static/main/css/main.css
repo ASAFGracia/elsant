@@ -413,5 +413,5 @@ footer:hover {
 }
 
 .flex-box-news > .box-news:last-child {
-    margin-right: 50px; /* Специальный отступ для последнего элемента */
+    margin-right: 50px;
 }
