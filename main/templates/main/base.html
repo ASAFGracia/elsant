@@ -28,7 +28,10 @@
     </div>
     <div>
         <div class="gen-search">
-            <i id="bi-search" class="bi bi-search"></i><label for="search-form"></label><input id="search-form" placeholder="Поиск" class="form">
+            <label for="search-form"></label><form action="{% url 'search_articles' %}" method="get" id="search-form1">
+                <input type="text" id="search-form" placeholder="Поиск" class="form">
+                <div id="suggestions-box"></div>
+            </form>
         </div>
     </div>
     <div class="numbers-header">
