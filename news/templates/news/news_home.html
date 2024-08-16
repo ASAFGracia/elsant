@@ -8,14 +8,20 @@
 <div class="features">
     <h1>{{ title }}</h1>
     {% if news %}
-    {% for el in news %}
-        <div class="alert alert-warning">
-            <h3>{{ el.title }}</h3>
-            <p>{{ el.anons }}</p>
-            <img id='photo' src="./images/{{ el.image }}" alt="photo"><br><br>
-            <a href="{% url 'news-detail' el.id %}" class="btn btn-warning">Подробнее</a>
+        <div class="flex-box-news">
+            {% for el in news %}
+                <div class="box-news">
+                    <div class="txt-box-news">
+                        <h3>{{ el.title }}</h3>
+                        <p>{{ el.anons }}</p>
+
+                        <img id='photo-to-box-news' src="./images/{{ el.image }}" alt="photo"><br><br>
+                    </div>
+                    <a href="{% url 'news-detail' el.id %}"><button class="btn-podrob-news"><p>Подробнее</p></button></a>
+                </div>
+
+            {% endfor %}
         </div>
-    {% endfor %}
     {% else %}
         <p>Нет товаров</p>
     {% endif %}

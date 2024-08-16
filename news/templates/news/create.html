@@ -1,12 +1,12 @@
 {% extends 'main/base.html' %}
 
 {% block title %}
-Добавить товар
+Добавить услугу
 {% endblock %}
 
 {% block content %}
     <div class="features">
-        <h1>Форма по добавлению товаров</h1>
+        <h1 class="head-create">Форма по добавлению услуги</h1>
         <form class="form-add" method="post" enctype="multipart/form-data">
             {% csrf_token %}
             {{ form.title }}<br>
@@ -15,7 +15,7 @@
             {{ form.date }}<br>
             {{ form.image }}<br>
             <span>{{ error }}</span>
-            <button class="btn btn-success" type="submit">Добавить товар</button>
+            <button type="submit" class="btn-podrob-news"><p>Добавить услугу</p></button>
         </form>
     </div>
 {% endblock %}

@@ -26,7 +26,7 @@ aside {
 	top: 0;
     position: fixed;
 	z-index: 1000;
-    height: 65vh;
+    height: 100vh;
 	border-right: 4px solid silver;
 	border-bottom: 4px solid silver;
 	border-radius: 0px 0px 10px 0px;
@@ -200,6 +200,7 @@ footer:hover {
 .logo-img-head {
 	height: 50px;
 	filter: brightness(0) invert(1);
+	transition: all ease 0.5s;
 }
 
 #logo-text {
@@ -300,7 +301,8 @@ footer:hover {
 
 .img-div1 img {
 	display: block;
-	width: 70vh;
+	width: 520px;
+	border-radius: 20px;
 }
 
 .icon-button {
@@ -328,6 +330,88 @@ footer:hover {
     color: #000;
 }
 
-#photo {
+#photo-to-box-news {
+	height: 150px;
+	width: auto;
+	border-radius: 10px;
+}
 
+.flex-box-news {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.box-news {
+    transition: all ease 0.5s;
+    height: 250px;
+    background-color: #000;
+    border-radius: 7px;
+    border: 3px solid #fff;
+    width: calc(23% - 20px);
+    padding-left: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-news:hover {
+	background-color: #A76C8C;
+	transform: scale(1.05);
+}
+
+.logo-img-head:hover {
+	transform: scale(1.1);
+}
+
+.btn-podrob-news {
+	transition: all ease 0.5s;
+	margin-bottom: 130px;
+	border: 2px solid #fff;
+	border-radius: 6px;
+	background-color: #30031E;
+	padding: 5px 8px;
+	color: #fff;
+}
+
+.btn-podrob-news:hover {
+	background-color: #3D0C22;
+}
+
+.btn-podrob-news:active {
+	background-color: #A45786;
+	border-color: #490A31;
+}
+
+.btn-podrob-news p {
+	margin: 0;
+	filter: brightness(0.7);
+}
+
+.btn-podrob-news p:active {
+	color: #fff;
+}
+
+.txt-box-news {
+	text-decoration: none;
+	color: #fff;
+	filter: brightness(0.9);
+}
+
+.txt-box-news a {
+	text-decoration: none;
+}
+
+.txt-news-view {
+	color: #fff;
+}
+
+.head-create {
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.flex-box-news > .box-news:last-child {
+    margin-right: 50px; /* Специальный отступ для последнего элемента */
 }
