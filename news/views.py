@@ -2,29 +2,6 @@ from django.shortcuts import render, redirect
 from .models import Articles
 from .forms import ArticlesForm
 from django.views.generic import DetailView, UpdateView, DeleteView
-from django.db.models import Q
-from django.http import JsonResponse
-
-
-def autocomplete_products(request):
-    query = request.GET.get('q', '')
-    if query:
-        articles = Articles.objects.filter(name__icontains=query)
-        suggestions = [article.name for article in articles]
-    else:
-        suggestions = []
-
-    return JsonResponse(suggestions, safe=False)
-
-
-def search_articles(request):
-    query = request.GET.get('q', '')
-    if query:
-        articles = Articles.objects.filter(
-            Q(title__icontains=query) | Q(content__icontains=query))
-    else:
-        articles = Articles.objects.none()
-        return render(request, 'news/search_results.html', {'articles': articles, 'query': query})
 
 
 def news_home(request):
