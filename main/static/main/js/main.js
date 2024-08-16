@@ -12,7 +12,7 @@ function openMenu() {
     }
 }
 
- document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
         const searchForm = document.getElementById("search-form1");
         const searchInput = document.getElementById("search-form");
         const suggestionsBox = document.getElementById("suggestions-box");
