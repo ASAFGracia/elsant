@@ -132,6 +132,7 @@ header {
 	background-color: #180C15;
 	height: 70px;
 	width: 100%;
+	border-bottom: 1px solid #fff;
 }
 
 footer {
@@ -148,6 +149,7 @@ footer {
     justify-content: center;
 	margin-top: 50px;
 	border-radius: 10px 10px 0px 0px;
+	border-top: 1px solid #fff;
 }
 
 #app {
@@ -275,7 +277,7 @@ footer:hover {
 }
 
 .features {
-	margin-left: 50px;
+	margin-left: 20px;
 	margin-top: 100px;
 }
 
@@ -414,4 +416,62 @@ footer:hover {
 
 .flex-box-news > .box-news:last-child {
     margin-right: 50px;
+}
+
+.divcongen {
+	display: flex;
+}
+
+.divcon1 {
+	transition: background-color 0.6s ease;
+	flex: 1;
+	height: 400px;
+	width: 100%;
+	background-color: #170726;
+	margin-right: 20px;
+	border-radius: 15px;
+	padding: 20px 15px;
+}
+
+.divcon2 {
+	transition: background-color 0.6s ease;
+	flex: 1;
+	height: 400px;
+	width: 100%;
+	background-color: #170726;
+	margin-right: 20px;
+	border-radius: 15px;
+	padding: 20px 15px;
+}
+
+.divcon3 {
+	transition: background-color 0.6s ease;
+	flex: 1;
+	height: 400px;
+	width: 100%;
+	background-color: #170726;
+	margin-right: 20px;
+	border-radius: 15px;
+	padding: 20px 15px;
+}
+
+.divcon1:hover {
+	background-color: #28153B;
+}
+
+.divcon2:hover {
+	background-color: #28153B;
+}
+
+.divcon3:hover {
+	background-color: #28153B;
+}
+
+.divcon1h4 {
+	color: #fff;
+	filter: brightness(0.8);
+	font-size: 30px;
+	text-align: center;
+    font-family: "Josefin Sans";
+
 }
