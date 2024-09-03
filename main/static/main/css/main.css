@@ -10,6 +10,13 @@
   font-style: normal;
 }
 
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 body {
 	height: 100vh;
 	display: flex;
@@ -37,6 +44,7 @@ body {
 }
 
 .logo-img {
+	transition: all ease 1s;
     padding-top: 20px;
     margin-bottom: 30px;
     filter: brightness(0) invert(1);
@@ -45,7 +53,6 @@ body {
 
 .logo-img:hover {
     transform: scale(1.1);
-    transition: 1s;
 }
 
 .logo-text {
@@ -153,7 +160,6 @@ footer {
 }
 
 #app {
-	display: flex;
 	margin-left: 50px;
 }
 
@@ -288,23 +294,35 @@ footer:hover {
 }
 
 #o-nas {
-	display: flex;
 	font-size: 20px;
 	color: #fff;
 	filter: brightness(0.5);
-	flex-direction: column;
-	flex: 200px;
 }
 
-.text-div1, .img-div1 {
+.div1index {
+	display: flex;
+}
+
+.text-div1 {
 	flex: 1;
-	padding: 20px;
+}
+
+.text-div1 {
+	padding: 15px;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	margin-right: 50px;
+}
+
+.img-div1 {
+	flex: 1;
+	margin-right: 40px;
 }
 
 .img-div1 img {
-	display: block;
-	width: 520px;
 	border-radius: 20px;
+	height: 550px;
+	border: 1px solid #fff;
 }
 
 .icon-button {
@@ -469,9 +487,77 @@ footer:hover {
 
 .divcon1h4 {
 	color: #fff;
-	filter: brightness(0.8);
+	filter: brightness(1);
 	font-size: 30px;
 	text-align: center;
-    font-family: "Josefin Sans";
+	font-family: "Montserrat", sans-serif;
+}
 
+.divcon1p {
+	color: #fff;
+	filter: brightness(0.7);
+	font-size: 18px;
+	font-family: "Montserrat", sans-serif;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.divcon1p2 {
+	color: #fff;
+	filter: brightness(0.7);
+	font-size: 18px;
+	font-family: "Montserrat", sans-serif;
+}
+
+.divcon2h4{
+	color: #fff;
+	filter: brightness(1);
+	font-size: 30px;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+}
+
+.divcon2p {
+	color: #fff;
+	filter: brightness(0.7);
+	font-size: 18px;
+	font-family: "Montserrat", sans-serif;
+	margin-top: 20px;
+}
+
+.divcon3h4{
+	color: #fff;
+	filter: brightness(1);
+	font-size: 30px;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+}
+
+.divcon3p {
+	color: #fff;
+	filter: brightness(0.7);
+	font-size: 18px;
+	font-family: "Montserrat", sans-serif;
+	margin-top: 20px;
+}
+
+.h1-onas {
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+	font-size: 40px;
+}
+
+.p-onas {
+	color: #fff;
+	font-size: 18px;
+	filter: brightness(0.8);
+	font-family: "Montserrat", sans-serif;
+	margin-top: 20px;
+}
+
+.li-onas {
+	color: #fff;
+	filter: brightness(0.7);
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
 }
