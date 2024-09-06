@@ -47,7 +47,6 @@ body {
 	transition: all ease 1s;
     padding-top: 20px;
     margin-bottom: 30px;
-    filter: brightness(0) invert(1);
     height: 200px;
 }
 
@@ -206,8 +205,7 @@ footer:hover {
 }
 
 .logo-img-head {
-	height: 50px;
-	filter: brightness(0) invert(1);
+	height: 100px;
 	transition: all ease 0.5s;
 }
 
