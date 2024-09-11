@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74ea3c0-ac5b-46d3-8227-9f8982021e6d" name="Changes" comment="2.0.2 добавлена страница с контактами">
-      <change afterPath="$PROJECT_DIR$/main/static/main/img/logo666site.png" afterDir="false" />
+    <list default="true" id="e74ea3c0-ac5b-46d3-8227-9f8982021e6d" name="Changes" comment="2.0.3 Точка сохранения с новым лого">
+      <change afterPath="$PROJECT_DIR$/main/static/main/img/bcgindex.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,31 +53,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.Debug Application.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowDocumentation.ShowToolbar": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/projects",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "npm.npm start.executor": "Run",
-    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.Debug Application.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowDocumentation.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/main/static/main/img&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\ilyin\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="f042803e-5dff-40f7-bfc1-df3631b70d4b" reportId="projects/qodana/2024-08-15" />
@@ -136,7 +137,10 @@
       <workItem from="1725088273548" duration="3035000" />
       <workItem from="1725171397864" duration="5004000" />
       <workItem from="1725348385052" duration="187000" />
-      <workItem from="1725652100830" duration="1112000" />
+      <workItem from="1725652100830" duration="1627000" />
+      <workItem from="1725702206165" duration="2029000" />
+      <workItem from="1725704454366" duration="597000" />
+      <workItem from="1725707233421" duration="95000" />
     </task>
     <task id="LOCAL-00001" summary="css 1.0">
       <option name="closed" value="true" />
@@ -202,7 +206,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725348479617</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2.0.2 добавлена страница с контактами">
+      <option name="closed" value="true" />
+      <created>1725655256271</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725655256271</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2.0.3 Точка сохранения с новым лого">
+      <option name="closed" value="true" />
+      <created>1725655310256</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725655310256</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +245,7 @@
     <MESSAGE value="ничего нормально не работает" />
     <MESSAGE value="2.0.1 стабильная версия с улучшенным списком услуг" />
     <MESSAGE value="2.0.2 добавлена страница с контактами" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.0.2 добавлена страница с контактами" />
+    <MESSAGE value="2.0.3 Точка сохранения с новым лого" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.0.3 Точка сохранения с новым лого" />
   </component>
 </project>
