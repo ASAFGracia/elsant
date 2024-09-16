@@ -26,26 +26,13 @@
     <div class="head-div">
         <a href="{% url 'home' %}"><img class="logo-img-head" src="{% static "main/img/logo666.png" %}" alt="LOGO"></a>
     </div>
-    <div>
-        <div class="gen-search">
-            <i id="bi-search" class="bi bi-search"></i><label for="search-form"></label><input id="search-form" placeholder="Поиск" class="form">
-        </div>
-    </div>
-    <div class="numbers-header">
-        <div>
-            <p>+375 (29) 595-92-63</p>
-        </div>
-        <div>
-            <p>Монтажник</p>
-        </div>
-    </div>
-    <div class="numbers-header1">
-        <div>
-            <p>+375 (29) 213-02-97</p>
-        </div>
-        <div>
-            <p>Магазин</p>
-        </div>
+    <div class="ul-menu">
+        <ul class="ulingen">
+            <a href="{% url 'home' %}" class="ulin1"><li>Главная</li></a>
+            <a href="{% url 'about' %}" class="ulin2"><li> Про нас</li></a>
+            <a href="{% url 'contacts' %}" class="ulin3"><li> Контакты</li></a>
+            <a href="{% url 'news_home' %}" class="ulin4"><li> Наш ассортимент</li></a>
+        </ul>
     </div>
     <div>
         <button class="icon-button">
@@ -53,19 +40,7 @@
         </button>
     </div>
 </header>
-    <aside id="sidebar">
-        <div class="toggle-btn"  onClick="openMenu()"><i class="bi bi-arrow-bar-right"></i>
-        </div>
-        <span class="logo-text">ElSant</span>
-        <h3 class="nav">Навигация</h3>
-        <ul>
-            <a href="{% url 'home' %}"><li><i class="bi bi-house"></i> Главная</li></a>
-            <a href="{% url 'about' %}"><li><i class="bi bi-person-rolodex"></i> Про нас</li></a>
-            <a href="{% url 'contacts' %}"><li><i class="bi bi-phone"></i> Контакты</li></a>
-            <a href="{% url 'news_home' %}"><li><i class="bi bi-card-list"></i> Наш ассортимент</li></a>
-            <a href="{% url 'create' %}"><li><button class="dob-tov"><i class="bi bi-database-add"></i> Добавить товар</button></li></a>
-        </ul>
-    </aside>
+
     <main id="content">
         {% block content %}
         {% endblock %}
